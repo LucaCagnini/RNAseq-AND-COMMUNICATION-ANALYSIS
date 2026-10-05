@@ -1,5 +1,11 @@
 # **RNA-seq Data and Cell–Cell Communication Analysis**
 
+![R](https://img.shields.io/badge/R-4.5-276DC3?logo=r&logoColor=white)
+![Bioconductor](https://img.shields.io/badge/Bioconductor-DESeq2%20%7C%20CellChat%20%7C%20NicheNet-1D9E75)
+![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20WSL-lightgrey?logo=linux&logoColor=white)
+![Status](https://img.shields.io/badge/status-thesis%20project-EF9F27)
+![License](https://img.shields.io/badge/license-all%20rights%20reserved-red)
+
 ## **Introduction**
 
 R scripts for the analysis of bulk RNA-seq data from two cell types grown in a co-culture system, with a focus on differential expression, transcription factor (TF) and pathway activity, and inferred cell–cell communication.
@@ -100,8 +106,9 @@ Place the input files in `data/` at the project root. Paths are built with `here
 
 ## **Author**
 
-- Luca Cagnini, University of Bologna 
+Luca Cagnini, Msc Bioinformatics, University of Bologna 
 
 ## License
 
-<!-- TODO: choose a license before making the repository public, or state "All rights reserved". -->
+All rights reserved. This code is shared for review purposes only; please contact the author before reusing or redistributing it.
+
