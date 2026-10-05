@@ -81,10 +81,9 @@ No data are distributed with this repository. To run the scripts you need:
 
 | Input | Description |
 |-------|-------------|
-| `FINAL_DDS.rds` | DESeq2 object for the lymphocyte (LY) samples. |
-| `DDS_RESULTS.rds` | DESeq2 results for LY. |
+| `DDS_LY.rds` | DESeq2 object for the lymphocyte (LY) samples. |
 | `DDS_EC` | DESeq2 object for the β-cell (EC) samples. |
-| `Cytokines_Concentration_Clean.txt` | Secreted protein concentrations (multiplex immunoassay). |
+| `Cytokines_Concentration.txt` | Secreted protein concentrations (multiplex immunoassay). |
 | `Table_genes_receptors.xlsx` | Table of genes and receptors used to link the analyses to the secretome panel. |
 | NicheNet prior files | Ligand–target matrix, ligand–receptor network and weighted networks, downloaded from the [NicheNet Zenodo repository](https://zenodo.org/). |
 
@@ -101,7 +100,7 @@ Place the input files in `data/` at the project root. Paths are built with `here
 
 ## **Author**
 
-<!-- TODO: name, affiliation and contact. -->
+- Luca Cagnini, University of Bologna 
 
 ## License
 
